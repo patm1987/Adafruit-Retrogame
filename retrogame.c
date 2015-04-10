@@ -91,12 +91,21 @@ struct {
 	// This pin/key table is used if an Adafruit PiTFT display
 	// is detected (e.g. Cupcade or PiGRRL).
 	// Input   Output (from /usr/include/linux/input.h)
-	{   2,     KEY_LEFT     },   // Joystick (4 pins)
-	{   3,     KEY_RIGHT    },
-	{   4,     KEY_DOWN     },
-	{  17,     KEY_UP       },
-	{  27,     KEY_Z        },   // A/Fire/jump/primary
-	{  22,     KEY_X        },   // B/Bomb/secondary
+	{   6,     KEY_LEFT     },   // Joystick (4 pins)
+	{  12,     KEY_RIGHT    },
+	{   5,     KEY_DOWN     },
+	{   4,     KEY_UP       },
+
+	{  13,     KEY_Z        },   // A/Fire/jump/primary
+	{  16,     KEY_X        },   // B/Bomb/secondary
+	{  17,     KEY_C	},
+	{  22,     KEY_V	},
+
+	{  21,     KEY_A	},
+	{  20,     KEY_S	},
+	{  19,     KEY_D	},
+	{  18,     KEY_F	},
+
 	{  23,     KEY_R        },   // Credit
 	{  18,     KEY_Q        },   // Start 1P
 	{  -1,     -1           } }, // END OF LIST, DO NOT CHANGE
@@ -113,13 +122,23 @@ struct {
 	// (using HDMI or composite instead), as with our original
 	// retro gaming guide.
 	// Input   Output (from /usr/include/linux/input.h)
-	{  25,     KEY_LEFT     },   // Joystick (4 pins)
-	{   9,     KEY_RIGHT    },
-	{  10,     KEY_UP       },
-	{  17,     KEY_DOWN     },
-	{  23,     KEY_LEFTCTRL },   // A/Fire/jump/primary
-	{   7,     KEY_LEFTALT  },   // B/Bomb/secondary
-	// For credit/start/etc., use USB keyboard or add more buttons.
+	{   6,     KEY_LEFT     },   // Joystick (4 pins)
+	{  12,     KEY_RIGHT    },
+	{   5,     KEY_DOWN     },
+	{   4,     KEY_UP       },
+
+	{  13,     KEY_Z        },   // A/Fire/jump/primary
+	{  16,     KEY_X        },   // B/Bomb/secondary
+	{  17,     KEY_C	},
+	{  22,     KEY_V	},
+
+	{  21,     KEY_A	},
+	{  20,     KEY_S	},
+	{  19,     KEY_D	},
+	{  18,     KEY_F	},
+
+	{  23,     KEY_R        },   // Credit
+	{  18,     KEY_Q        },   // Start 1P
 	{  -1,     -1           } }; // END OF LIST, DO NOT CHANGE
 
 // A "Vulcan nerve pinch" (holding down a specific button combination
